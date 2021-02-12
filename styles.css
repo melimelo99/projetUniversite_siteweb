@@ -1,0 +1,484 @@
+body{
+	font-family:arial;
+	/*background-image : url(images/potagerweb.jpg);*/
+	background-position : left top;
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+	background-color : #FFFFFF;
+	
+	
+}
+
+
+/*Code CSS pour les titres*/
+h1{
+	/*color: #370028;*/
+	color:#FFF000; 				/*JAUNE*/
+	font-weight: bold;
+	font-style:italic;
+	border-bottom:3px solid #ddd;
+	margin-bottom: 30px;
+	font-size:25px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+h2{
+	/*color: #6c0277;*/
+	color : #FF0000;		/*ROUGE*/
+	font-weight: bold;
+	font-style:italic;
+	border-bottom:2px solid #ddd;
+	margin-bottom: 18px;
+	font-size:20px;
+	padding-bottom: 4px;
+}
+
+h3{
+	color: #FFFFFF;			/*DANS ARTICLE, MAIS NE FONCTIONNE PAS */
+	font-weight: bold;
+	font-style:italic;
+	border-bottom:1px solid #ddd;
+	margin-bottom: 10px;
+	font-size: 17px;
+	padding-bottom:3px;
+	
+}
+
+
+p{
+	font-size: 13px;
+	color: #000000;
+}
+	
+
+
+nav,
+footer, 
+section{
+	/*background-color: #FAA400;*/
+	background-color : #FFFFFF;				
+	width: 75%;
+	margin: 0px auto 15px auto;
+	padding: 10px;
+	text-decoration:none;
+	color : #fffff;
+	/*box-shadow: 10px 10px 10px 0px #c0c0c0;*/
+}
+	
+
+header {						
+	text-align  : left;
+	width : 100%;
+	margin: 50px auto 50px auto; 
+	background-color : #FFFFFF;
+}
+
+footer {
+	font-size : 12px;
+	text-align : center;
+}
+
+section {
+	background-color : #FFFFFF;			/*BLEU PALE */
+}
+
+nav {
+	font-family : Organic fruit;
+	width : 350px;  		/* ACCUEIL ARTICLES CONTACT */
+	text-align : center;
+	word-spacing: 40px;
+	font-size: 20px;
+
+}
+
+aside{
+	text-align: center;
+}
+
+
+/*Code CSS relatif aux id*/
+
+#blocktitre {
+	font-family : Organic fruit;
+	font-size : 45px;
+	color : #FFF000;				
+	/*margin-left : auto;
+	margin-right : auto;*/
+	/*margin-top: 40px;*/
+	/*width : 100px;*/
+	/*height : -150px;*/
+
+	position : relative; left : 200px;
+
+}
+
+#connexion {
+	font-family : Organic fruit;
+	color : #FFF000;
+	width : 100px;
+	position:absolute; top:60px; left : 1200px;
+	/*border : 1px solid #FAA400;*/
+	/*text-align : center;*/
+	/*padding : 2px;*/
+	/*background-color : #FAA400;		*/	/*ORANGE*/
+}
+
+#nouvelutilisateur {
+	font-family : Organic fruit;
+	color : #FFF000;
+	width : 100px;
+	position : absolute; top : 60px; left : 1040px;
+	/*border : 1px solid #FAA400;*/
+	/*text-align : center;*/
+	/*padding : 2px;*/
+	/*background-color : #FAA400;		*/		/*ORANGE*/
+}
+
+
+#logo img{
+	position : absolute;
+	width : 10%;
+	height : auto;
+	margin-left : -33%;
+	margin-top : 20px;
+	border-radius : 50%;
+}
+
+
+/*CSS pour un affichage en plus petit des références d'articles*/
+#referencesArticle{
+	font-size : 12px;
+}
+
+
+/*CSS spécifique au formulaire de recherche d'arrondissement*/
+.recherche_arrondiss{
+	max-width: 1000px;
+	padding: 20px 12px 10px 20px
+}
+
+.recherche_arrondiss label{
+	display: inline;
+	margin: 0px 0px 15px 0px;
+}
+
+.recherche_arrondiss label > span{
+	width: 300px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+
+.formulairecreation input.champ{
+	width:50%;
+}
+
+
+/*Code CSS pour gérer les liens*/
+
+a:hover {
+	/*color: #831212;*/
+	color: #989898;				/*gris */
+}
+
+
+a { 
+	color : #231F20;
+	text-decoration : none;
+}
+	
+a.page_active {
+	color : #ffffff;
+	text-decoration : underline;
+}
+
+
+.droite{
+	margin-left:55%;
+}
+
+
+/*CSS page admin*/
+.admin{
+	font-size:15px;
+	font-weight:bold;
+}
+
+.admin ul li{
+	list-style-type: disc;
+}
+
+
+
+/*Code CSS pour formulaires*/
+
+input[type=text], textarea {
+    width: 200px;
+}
+
+
+/*Styles pour le formulaire de création d'un compte, à voir si à réutiliser pour la page de connexion as well*/
+input[type=shorttext]{
+	width: 50px;
+}
+
+.formulairecreation{
+	max-width: 1000px;
+	padding: 20px 12px 10px 20px;
+}
+
+.formulaire-sous-titre{
+	font-weight: bold;
+	font-style:italic;
+	border-bottom:2px solid #ddd;
+	margin-bottom: 20px;
+	font-size:20px;
+	padding-bottom: 4px;
+}
+
+.formulairecreation label{
+	display: inline;
+	margin: 0px 0px 15px 0px;
+}
+
+.formulairecreation label > span{
+	width: 300px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+
+.formulairecreation span.required{
+	color: red;
+}
+
+.formulairecreation input.champ{
+	width:50%;
+}
+
+
+.formulairecreation input.petitchamp{
+	width: 10%;
+}
+
+.formulairecreation input.champlarge{
+	width: 50%;
+	height: 40%;
+}
+
+.formulairecreation.textarea-field[name="message"]{
+	height:100px;
+	width: 50%;
+}
+
+
+.formulairecreation input.champ, 
+.formulairecreation input.petitchamp, 
+.formulairecreation .textarea-field[name="message"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	padding: 7px;
+	outline: none;
+}
+
+.formulairecreation input.champ:focus, 
+.formulairecreation input.petitchamp:focus, 
+.formulairecreation .textarea-field[name="message"]:focus, {
+	border: 1px solid #0C0;
+}
+
+
+.formulairecreation input[type=submit]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.formulaire input[type=submit]:hover{
+	background: #EA7B00;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+}
+
+
+.textfield { 
+	padding: 0.5em; text-indent: 0.25em; font-size:1rem; line-height:1.333em;
+}
+
+textarea.textfield { 
+	min-height: 120px; width:100%; box-sizing: border-box; 
+}
+
+/*.formulairecreation input.labelRadio{
+	display: inline;
+	float: none;
+}*/
+
+
+
+/*Code CSS pour l'affichage des espaces personnels*/
+
+.vertical-tab {
+  color: #333;
+  display: block;
+  font-family: arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 80%;
+}
+
+.vertical-tab input[name="sections"] {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+
+.vertical-tab section {
+  display: inline-block;
+}
+
+.vertical-tab section label {
+  background: #fff;
+  border-right:1px solid #ccc;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 15px 20px;
+  position: relative;
+  width: 180px;
+  z-index:100;
+}
+
+.vertical-tab section article {
+  display: none;
+  left: 30%;
+  width:70%;
+  padding: 0 0 0 21px;
+  position: absolute;  
+  top: 0;
+}
+
+.vertical-tab section article:after {
+  background-color: #fff;
+  bottom: 0;
+  content: "";
+  display: block;
+  left:-229px;
+  position: absolute;
+  top: 0;
+  width: 220px;
+  z-index:1;
+}
+
+.vertical-tab input[name="sections"]:checked + label { 
+  background: #fff;
+  border-right:2px solid #000;
+  color: #bbb;
+}
+
+.vertical-tab input[name="sections"]:checked ~ article {
+  display: block;
+}
+
+
+
+
+/*Classe et id spécifiques à la page annonce*/
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#adresse{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+
+
+/*Code CSS pour l'affichage d'annonces dans la page d'accueil*/
+
+#annonces ul li {
+    list-style-type: none;
+    display: inline-block;    
+    width: 95%;    
+    font-size: 16px;  
+    text-align: center;
+    vertical-align: center;
+    margin-top: 5px;
+	margin-bottom:10px;
+    background: #008080;
+
+}
+
+li {
+overflow: hidden;
+}
+ 
+
+#annonces ul li img {
+	/*border-radius: 50%;*/
+	width:50%;
+	height: auto;
+	margin-top:10px;
+}
+
+
+
+
+/*Code CSS pour l'affichage d'articles*/
+
+#articles ul li {
+    list-style-type: none;
+    display: inline-block;    
+    width: 95%;    
+    font-size: 16px;  
+    text-align: center;
+    vertical-align: center;
+    margin-top: 5px;
+	margin-bottom: 10px;
+    background: #808285;
+}
+
+li {
+overflow: hidden;
+}
+ 
+
+#articles ul li img {
+	border-radius: 50%;
+	height: 60%;
+	width:auto;
+	margin-top:10px;
+}
+
+
+
+
+
+

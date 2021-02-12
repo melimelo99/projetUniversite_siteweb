@@ -1,0 +1,154 @@
+
+/*Code CSS pour le responsive*/
+
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+  
+	#blocktitre {
+		/*font-family : Organic Fruit; */
+		font-size : 80px;
+		/*color : #FFFFFF;*/
+		margin-left : auto;
+		margin-right : auto;
+		width : 400px;
+		height : -150px;
+		padding : 20px;
+
+	}
+
+	#connexion {
+		/*color : #ffffff;*/
+		width : 100px;
+		position:absolute; top:50px; left : 340px;
+		/*border : 1px solid #FAA400;*/
+		text-align : center;
+		padding : 2px;
+		/*background-color : #FAA400;*/
+	}
+
+	#nouvelutilisateur {
+		/*color : #ffffff;*/
+		width : 150px;
+		position : absolute; top : 50px; left : 180px;
+		/*border : 1px solid #FAA400;*/
+		text-align : center;
+		padding : 2px;
+		/*background-color : #FAA400;*/
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+	
+	#blocktitre {
+		/*font-family : Organic Fruit; */
+		font-size : 100px;
+		/*color : #FFFFFF;*/
+		margin-left : auto;
+		margin-right : auto;
+		width : 400px;
+		height : -150px;
+
+	}
+
+	#connexion {
+		/*color : #ffffff;*/
+		width : 100px;
+		position:absolute; top:50px; left : 520px;
+		/*border : 1px solid #FAA400;*/
+		text-align : center;
+		padding : 2px;
+		/*background-color : #FAA400;*/
+	}
+
+	#nouvelutilisateur {
+		/*color : #ffffff;*/
+		width : 150px;
+		position : absolute; top : 50px; left : 360px;
+		/*border : 1px solid #FAA400;*/
+		text-align : center;
+		padding : 2px;
+		/*background-color : #FAA400;*/
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+	
+	#blocktitre {
+		/*font-family : Organic Fruit; */
+		font-size : 100px;
+		/*color : #FFFFFF;*/
+		margin-left : auto;
+		margin-right : auto;
+		width : 400px;
+		height : -150px;
+
+	}
+
+	#connexion {
+		/*color : #ffffff;*/
+		width : 100px;
+		position:absolute; top:50px; left : 760px;
+		/*border : 1px solid #FAA400;*/
+		text-align : center;
+		padding : 2px;
+		/*background-color : #FAA400;*/
+	}
+
+	#nouvelutilisateur {
+		/*color : #ffffff;*/
+		width : 150px;
+		position : absolute; top : 50px; left : 600px;
+		/*border : 1px solid #FAA400;*/
+		text-align : center;
+		padding : 2px;
+		/*background-color : #FAA400;*/
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+	
+	#blocktitre {
+		/*font-family : Organic Fruit; */
+		font-size : 90px;
+		/*color : #FFFFFF;*/
+		margin-left : auto;
+		margin-right : auto;
+		margin-top: 40px;
+		width : 350px;
+		height : -150px;
+
+	}
+
+	#connexion {
+		/*color : #ffffff;*/
+		width : 100px;
+		position:absolute; top:50px; left : 990px;
+		/*border : 1px solid #FAA400;*/
+		text-align : center;
+		padding : 2px;
+		/*background-color : #FAA400;*/
+	}
+
+	#nouvelutilisateur {
+	/*	color : #ffffff;*/
+		width : 150px;
+		position : absolute; top : 50px; left : 830px;
+	/*	border : 1px solid #FAA400;*/
+		text-align : center;
+		padding : 2px;
+	/*	background-color : #FAA400;*/
+	}
+  
+}
